@@ -2,11 +2,9 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 
-# Initialize SQLite database
 conn = sqlite3.connect("hotel_database.db", check_same_thread=False)
 cursor = conn.cursor()
 
-# Create the rooms table
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS rooms (
         room_number INTEGER PRIMARY KEY,
@@ -16,7 +14,6 @@ cursor.execute('''
 ''')
 conn.commit()
 
-# Create the reservations table
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS reservations (
         reservation_id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -48,7 +45,6 @@ def display_available_rooms():
 
 
 def make_reservation(room_number, guest_name, contact_number, check_in_date, check_out_date):
-    # Convert check_in_date and check_out_date to strings in ISO 8601 format
     check_in_date_str = check_in_date.strftime("%Y-%m-%d")
     check_out_date_str = check_out_date.strftime("%Y-%m-%d")
 
@@ -105,15 +101,14 @@ def display_home_page():
     room_number_make = st.number_input("Enter the room number to make a reservation:", min_value=1, step=1)
     guest_name = st.text_input("Enter your name:")
     contact_number = st.text_input("Enter your contact number:")
-    check_in_date = st.date_input("Select check-in date:", format="YYYY-MM-DD")  # Explicitly set the format
-    check_out_date = st.date_input("Select check-out date:", format="YYYY-MM-DD")  # Explicitly set the format
+    check_in_date = st.date_input("Select check-in date:", format="YYYY-MM-DD")  
+    check_out_date = st.date_input("Select check-out date:", format="YYYY-MM-DD")  
 
     if st.button("Make Reservation"):
         result_make = make_reservation(room_number_make, guest_name, contact_number, check_in_date, check_out_date)
         st.success(result_make)
 
     st.subheader("Cancel a Reservation:")
-    # Display reservations for cancellation
     cursor.execute("SELECT * FROM reservations")
     reservations_data = cursor.fetchall()
     if reservations_data:
