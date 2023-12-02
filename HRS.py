@@ -81,7 +81,6 @@ def make_reservation(room_number, guest_name, contact_number, check_in_date, che
 
 
 def calculate_price(room_tier, check_in_date, check_out_date):
-    
     base_prices = {
         "Single Room": 5000,
         "Suite": 6000,
@@ -149,27 +148,44 @@ def view_reservations():
 
         image_directory = './room_images/'
 
-        col1, col2 = st.columns([1, 2])
+        for index, row in df.iterrows():
+            room_type = row['Room Type']
+            image_path = None
 
-        with col1:
-            for index, row in df.iterrows():
-                room_type = row['Room Type']
-                image_path = None
+            if room_type == "Single Room":
+                image_path = os.path.join(image_directory, 'single_room.png')
+            elif room_type == "Suite":
+                image_path = os.path.join(image_directory, 'suite.png')
+            elif room_type == "Deluxe Suite":
+                image_path = os.path.join(image_directory, 'deluxe_suite.png')
 
-                if room_type == "Single Room":
-                    image_path = os.path.join(image_directory, 'single_room.png')
-                elif room_type == "Suite":
-                    image_path = os.path.join(image_directory, 'suite.png')
-                elif room_type == "Deluxe Suite":
-                    image_path = os.path.join(image_directory, 'deluxe_suite.png')
+            st.markdown("---")
+            col1, col2, col3, col4, col5 = st.columns([1, 1, 1, 1, 2])
 
+            with col1:
                 if image_path and os.path.exists(image_path):
                     st.image(image_path, caption=f"Reservation ID: {row['Reservation ID']}", use_column_width=True)
                 else:
                     st.write(f"No image available for Reservation ID: {row['Reservation ID']}")
 
-        with col2:
-            st.dataframe(df)
+            with col2:
+                st.write(f"**Reservation ID:** {row['Reservation ID']}")
+                st.write(f"**Room Number:** {row['Room Number']}")
+
+            with col3:
+                st.write(f"**Guest Name:** {row['Guest Name']}")
+                st.write(f"**Contact Number:** {row['Contact Number']}")
+
+            with col4:
+                st.write(f"**Check-in Date:** {row['Check-in Date']}")
+                st.write(f"**Check-out Date:** {row['Check-out Date']}")
+
+            with col5:
+                st.write(f"**Number of People:** {row['Number of People']}")
+                st.write(f"**Room Type:** {row['Room Type']}")
+                st.write(f"**Price:** {row['Price']}")
+
+        st.markdown("---")
 
 
 def main():
