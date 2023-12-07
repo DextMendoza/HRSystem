@@ -189,7 +189,7 @@ def view_reservations():
 
 
 def main():
-    st.title("Hotel Reservation System")
+    st.title("BookEase")
 
 
     menu = ["Home", "Booked Reservations"]
