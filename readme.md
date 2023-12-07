@@ -9,6 +9,9 @@ like room tier, check-in and check-out dates, and the number of people that will
 
 
 Instructions:
+
+
+
 1. Open Command Prompt.
 2. Navigate to the folder/directory that app.py is located in, using the command 'cd' then the name of the folder that you are in.
 If you have the folder on a separate hard drive, then you need to type the letter of the drive, example D, followed with a colon,
