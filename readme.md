@@ -1,7 +1,13 @@
 BookEase - A Hotel Reservation Program
-Description:
+
+
+
+
 A simple and easy to navigate hotel reservation program that allows you to book reservations with ease, along with additional details
 like room tier, check-in and check-out dates, and the number of people that will use the room.
+
+
+
 Instructions:
 1. Open Command Prompt.
 2. Navigate to the folder/directory that app.py is located in, using the command 'cd' then the name of the folder that you are in.
