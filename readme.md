@@ -18,6 +18,16 @@ Program Features:
 - Price calculator that automatically adjusts the cost according to your check in and check out date.
 
 ```
+SDG Relations:
+```
+SDG 8:
+
+SDG 9: 
+```
+Final Project Video Presentation:
+```
+Google Drive link: https://drive.google.com/file/d/19l9Q3y9ZXuJ22tNJfjsrQkTGKfzPCtkb/view?usp=sharing
+```
 
 Instructions:
 
@@ -35,5 +45,3 @@ then navigate to the folder with the app.py file.
 3. After navigating to the folder, type the command 'streamlit run app.py'.
 4. The program should start running in your browser.
 
-
-Video presentation: https://drive.google.com/file/d/19l9Q3y9ZXuJ22tNJfjsrQkTGKfzPCtkb/view?usp=sharing
