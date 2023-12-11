@@ -44,6 +44,19 @@ MASANGKAY, VINZ KIRO J. - Programmer, Video Presentation - (20%)
 MENDOZA, DEXTER DARRENCE T. - Programmer, Video Presentation, Documentation, Debugging - (40%)
 MENDOZA, JEROME M. - Programmer, Video Presentation - (20%)
 ```
+Self-assessment:
+
+Our team is dedicated to delivering seamless and quality programs that add convenience to any business. The ratings for the criterion is as follows:
+```
+Code Reusability: 4
+Maintainability: 4
+Scalability: 4
+Execution: 3
+Originality: 3
+Overall Impression: 3.5
+```
+These scores show the results of our testing and observing of the program. We understand that it has more potential to be a better application compared to its current state, and we look forward to your remarks and use them as a basis for improvement in the future.
+
 Instructions:
 
 Installing Streamlit
