@@ -1,10 +1,11 @@
-BookEase - A Hotel Reservation Program
+Project Title: BookEase - A Hotel Reservation Program
 
 
 
-
-A simple and easy to navigate hotel reservation program that allows you to book reservations with ease, along with additional details
-like room tier, check-in and check-out dates, and the number of people that will use the room.
+Description:
+```
+A simple and easy to navigate hotel reservation program that allows you to book reservations with ease, along with additional details like room tier, check-in and check-out dates, and the number of people that will use the room.
+```
 
 
 
