@@ -10,7 +10,12 @@ like room tier, check-in and check-out dates, and the number of people that will
 
 Instructions:
 
+Installing Streamlit
+1. Make sure Python is installed.
+2. Open Command Prompt and type in: cd C:\Users\(your username)\AppData\Local\Programs\Python\Python312\Scripts
+3. Type in pip install streamlit, and it should start installing.
 
+Running the program
 
 1. Open Command Prompt.
 2. Navigate to the folder/directory that app.py is located in, using the command 'cd' then the name of the folder that you are in.
