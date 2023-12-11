@@ -36,6 +36,14 @@ MASANGKAY, VINZ KIRO J. (22-02285@g.batstate-u.edu.ph)
 MENDOZA, DEXTER DARRENCE T. (22-06137@g.batstate-u.edu.ph)
 MENDOZA, JEROME M. (22-01071@g.batstate-u.edu.ph)
 ```
+Break of Contribution:
+```
+BSIT - 2101
+ABRAHAN, JULIAN PHILIP P. - Programmer, Video Presentation - (20%)
+MASANGKAY, VINZ KIRO J. - Programmer, Video Presentation - (20%)
+MENDOZA, DEXTER DARRENCE T. - Programmer, Video Presentation, Documentation, Debugging - (40%)
+MENDOZA, JEROME M. - Programmer, Video Presentation - (20%)
+```
 Instructions:
 
 Installing Streamlit
