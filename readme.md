@@ -6,8 +6,18 @@ Description:
 ```
 A simple and easy to navigate hotel reservation program that allows you to book reservations with ease, along with additional details like room tier, check-in and check-out dates, and the number of people that will use the room.
 ```
+Program Features:
 
+```
+- A database to store reservations as long as needed.
 
+- A reservation viewer that displays all booked reservations.
+
+- Option to cancel reservations if needed.
+
+- Price calculator that automatically adjusts the cost according to your check in and check out date.
+
+```
 
 Instructions:
 
