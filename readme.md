@@ -28,7 +28,14 @@ Final Project Video Presentation:
 ```
 Google Drive link: https://drive.google.com/file/d/19l9Q3y9ZXuJ22tNJfjsrQkTGKfzPCtkb/view?usp=sharing
 ```
-
+Developers:
+```
+BSIT - 2101
+ABRAHAN, JULIAN PHILIP P. (22-00615@g.batstate-u.edu.ph)
+MASANGKAY, VINZ KIRO J. (22-02285@g.batstate-u.edu.ph)
+MENDOZA, DEXTER DARRENCE T. (22-06137@g.batstate-u.edu.ph)
+MENDOZA, JEROME M. (22-01071@g.batstate-u.edu.ph)
+```
 Instructions:
 
 Installing Streamlit
