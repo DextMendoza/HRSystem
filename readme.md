@@ -20,9 +20,9 @@ Program Features:
 ```
 SDG Relations:
 ```
-SDG 8:
+SDG 8: SDG number 8 is closely connected to our system because it greatly helps people expedite hotel reservations, especially for customers who prefer locations that are far away. For example, a person is from Batangas and they are going to a hotel in Palawan. Through our system, they longer need to physically walk in to Palawan to make a reservation. With just a few clicks, anyone can easily reserve a hotel.
 
-SDG 9: 
+SDG 9: SDG 9 as it simplifies and expedites the booking process for customers. The positive impact of our system contributes to a streamlined experience for customers, promoting accessibility and ease in making reservations. This aligns with the broader goal of SDG 9 to foster change and advancements in technology that enhance skills in infrastructure and industry for the benefit of society.
 ```
 Final Project Video Presentation:
 ```
